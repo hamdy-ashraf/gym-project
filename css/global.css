@@ -1,0 +1,48 @@
+:root {
+    --main-color: #E55556;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* height: 10000px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+}
+
+section,
+footer {
+    padding-block: 30px;
+}
+
+.container {
+    /* width: 85%; */
+    /* margin: auto; */
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-block: 20px 40px;
+    letter-spacing: 2px;
+}
